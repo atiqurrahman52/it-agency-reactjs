@@ -70,3 +70,25 @@
 }
 
 /* swiper slider end */
+
+/* testimonial start  */
+.testimonial .swiper-slide {
+  padding-top: 40px;
+}
+
+.testimonial .swiper-slide-active .testimonial-avatar {
+  @apply h-20 w-20 -mt-10 mb-4 border-primary;
+}
+.testimonial .swiper-slide-active .testimonial-name {
+  @apply text-xl mb-3;
+}
+.testimonial .swiper-slide-active .testimonial-date {
+  @apply text-sm;
+}
+.testimonial .swiper-slide-active .testimonial-comment {
+  @apply text-lg text-black/60;
+}
+.testimonial .swiper-slide-active .testimonial-card {
+  @apply p-6;
+}
+/* testimonial end  */
