@@ -1,11 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-
-// import required modules
 import { Pagination, Autoplay } from "swiper";
 import { testimonialData } from "../../data/share/testimonialData";
 const Testimonial = () => {
@@ -35,7 +28,7 @@ const Testimonial = () => {
         modules={[Pagination, Autoplay]}
         className="pb-14"
       >
-        {testimonialData.map(({ id, UserImg, userName, designation,comment }) => (
+        {testimonialData.map(({ id, UserImg, userName, designation,comment,date }) => (
          <div key={id} className="testimonial">
              <SwiperSlide>
             <div className="drop-shadow-[0_1px_3px_rgba(75,75,75,0.06)] bg-white p-4  testimonial-card">
@@ -47,7 +40,7 @@ const Testimonial = () => {
                 <div className="flex justify-between mb-3 md:mb-[14px]">
                   <p className="font-Inter font-semibold text-xs md:text-sm text-secondary_color testimonial-company">{designation}
                     </p>
-                  <p className="font-Inter font-semibold text-xs md:text-sm text-[#393545] testimonial-date">11 Jan 2022</p>
+                  <p className="font-Inter font-semibold text-xs md:text-sm text-[#393545] testimonial-date">{date}</p>
                 </div>
                 <p className="font-Inter text-sm text-black/40 testimonial-comment">{comment}</p>
               </div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
+import logo from '../../assets/images/logo/logo-1.webp'
 
 const Navbar = () => {
 
@@ -22,9 +23,9 @@ const Navbar = () => {
     <div className="container h-full">
       <div className="h-full w-full flex items-center justify-between">
         <div>
-          <a href="./index.html">
-            <img src="./assets/images/logo/logo-1.webp" alt="" />
-          </a>
+          <Link to="/">
+            <img src={logo} alt="" />
+          </Link>
         </div>
         <div className="flex items-center gap-4">
           <div className="main">

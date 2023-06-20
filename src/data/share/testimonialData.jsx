@@ -7,6 +7,7 @@ export const testimonialData = [
         UserImg:sebastian,
         userName:'Sebastian',
         designation:'CEO Google',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -14,6 +15,7 @@ export const testimonialData = [
         UserImg:nicholas,
         userName:'Nicholas',
         designation:'CEO Amazon',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -21,6 +23,7 @@ export const testimonialData = [
         UserImg:sebastian,
         userName:'Sebastian',
         designation:'CEO Google',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -28,6 +31,7 @@ export const testimonialData = [
         UserImg:jonas,
         userName:'Jonas',
         designation:'CEO BYSL',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -35,6 +39,7 @@ export const testimonialData = [
         UserImg:sebastian,
         userName:'Sebastian',
         designation:'CEO Microsoft',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -42,6 +47,7 @@ export const testimonialData = [
         UserImg:nicholas,
         userName:'Nicholas',
         designation:'CEO Amazon',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
     {
@@ -49,6 +55,7 @@ export const testimonialData = [
         UserImg:jonas,
         userName:'Jonas',
         designation:'CEO BYSL',
+        date:'11 Jan 2022',
         comment:'Massa enim libero dictumst consectetur in convallis. Lobortis cursus mi a magna ullamcorper consectetur.'
     },
 

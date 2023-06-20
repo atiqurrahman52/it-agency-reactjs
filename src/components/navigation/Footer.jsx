@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
-import footerLogo from '../../assets/images/footer/footer-logo.png'
+import { Link } from "react-router-dom";
+import footerLogo from "../../assets/images/footer/footer-logo.png";
+import { footerData } from "../../data/navigation/footerData";
 const Footer = () => {
   return (
     <div className="footer">
@@ -172,13 +173,17 @@ const Footer = () => {
                 Page Link
               </h6>
               <div className="space-y-4 xl:text-right">
-                <a
-                  href="./index.html"
-                  className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  Home
-                </a>
-                <a
+                {footerData.map(({ id, title, path }) => (
+                  <Link
+                  key={id}
+                    to={path}
+                    className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
+                  >
+                   {title}
+                  </Link>
+                ))}
+
+                {/* <a
                   href="./pages/service.html"
                   className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
                 >
@@ -213,7 +218,7 @@ const Footer = () => {
                   className="font -Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
                 >
                   404 page
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
