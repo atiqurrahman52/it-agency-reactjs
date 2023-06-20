@@ -15,6 +15,11 @@
   font-style: normal;
 }
 
+/* scrollbar hidden start  */
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+/* scrollbar hidden end  */
 
 
 /* background image start */
@@ -33,6 +38,9 @@
 .about {
   background-image: url("./assets/images/about/about.webp");
 }
+.about_mobile {
+  background-image: url("./assets/images/about/about-mobile.webp");
+}
 .service_detail_header {
   background-image: url("./assets/images/service-detail/service-detail-header.webp");
 }
@@ -46,7 +54,9 @@
   background-image: url("./assets/images/not-found/404-error-bg.webp");
 }
 /* background image end */
-
+.about-bg{
+  background: rgba(0, 0, 0, 0.54);
+}
 
 .backdrop {
   background: rgba(251, 251, 251, 0.03);

@@ -4,14 +4,18 @@ import Home from "./pages/Home";
 import NotFound from "./components/notFound/NotFound";
 import ServiceDetails from "./pages/ServiceDetails";
 import ContactUs from "./pages/ContactUs";
+import AboutUs from "./pages/AboutUs";
+import Service from "./pages/Service";
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route path="/"  element={<Home />}/>
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/contact-us" element={<ContactUs />} />
-        <Route path="/service-details" element={<ServiceDetails />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/service-details/:id" element={<ServiceDetails />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

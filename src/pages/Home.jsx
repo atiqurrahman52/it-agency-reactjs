@@ -6,13 +6,13 @@ import OurClients from "../components/home/OurClients";
 import Pricing from "../components/home/Pricing";
 import ProfessionalServices from "../components/home/ProfessionalServices";
 import RecentWork from "../components/home/RecentWork";
-import WorkFlow from "../components/home/WorkFlow";
 import Subscribe from "../components/share/Subscribe";
+import WorkFlow from "../components/share/WorkFlow";
 
 const Home = () => {
   return (
     <div>
-      <Banner />
+      <Banner /> 
       <WorkFlow />
       <ProfessionalServices />
       <Achieve />
