@@ -1,7 +1,7 @@
 export const recentWorkData = [
   {
     id: 0,
-    video: "/src/assets/video/business.mp4",
+    video: "../src/assets/video/business.mp4",
     title: "Business Automation & Integration ONE",
     description:
       "21 Job Interview Tips: How To Make a Great Impression.Our mission is to create the world&rsquo;s most sustainable healthcare company by creating high-quality healthcare products in iconic, sustainable packaging.",
