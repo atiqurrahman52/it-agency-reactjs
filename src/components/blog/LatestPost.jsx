@@ -35,7 +35,7 @@ const LatestPost = () => {
                filterLatestPost.map(({id,img,name,user,date,durationToRead,topic,title,description}) =>(
                 <Link
                 key={id}
-                 to="./blog-details.html" className="item popular">
+                 to={`/blog-details/${id}`}>
                 <div className="bg-[#F9F9F9] p-3 md:p-5 rounded-md">
                   <img
                     className="rounded-lg w-full"

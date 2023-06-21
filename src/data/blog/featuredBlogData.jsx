@@ -44,7 +44,7 @@ export const featuredBlogData = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.sum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in er...",
   },
   {
-    id: 2,
+    id: 1,
     img: blog2,
     name: "Nicholas kaly",
     user: (

@@ -8,6 +8,7 @@ import AboutUs from "./pages/AboutUs";
 import Service from "./pages/Service";
 import Blog from './pages/Blog'
 import BlogDetails from "./pages/BlogDetails";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/service-details/:id" element={<ServiceDetails />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog-details/:id" element={<BlogDetails />} />
+        <Route path="/coming-soon"  element={<ComingSoon />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
