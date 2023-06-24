@@ -11,7 +11,7 @@ const Banner = () => {
           alt=""
         />
         <p className="font-Inter font-medium text-sm text-white text-center pt-10 md:pt-5">
-        &ldquo;we are here to empowering your digital transformation&rdquo;
+          &ldquo;we are here to empowering your digital transformation&rdquo;
         </p>
         <Link
           to="#"
@@ -21,7 +21,7 @@ const Banner = () => {
             Meet with Us
           </span>
           <span className="bg-white px-[3px] md:px-[4px] py-[4px] rounded-full flex">
-          <CaretRight size={16} />
+            <CaretRight size={16} />
           </span>
         </Link>
       </div>

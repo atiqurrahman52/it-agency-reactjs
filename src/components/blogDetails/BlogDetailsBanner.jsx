@@ -28,6 +28,7 @@ const BlogDetailsBanner = ({data}) => {
             11 Jan 2022{" "}
             <span className="bg-[#000000] w-1 h-1 block rounded-full"></span> 5
             min read
+            
           </p>
         </div>
         <div>

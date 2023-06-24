@@ -1,10 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// import required modules
 import { Pagination, Autoplay } from "swiper";
-import { recentWorkData } from "../../data/home/recentWorkData";
-import { Link } from "react-router-dom";
-import { ArrowUpRight } from "@phosphor-icons/react";
+
 import { latestPostData } from "../../data/blog/latestPostData";
 const RelatedPost = () => {
   return (
@@ -42,24 +39,30 @@ const RelatedPost = () => {
           modules={[Pagination, Autoplay]}
           className="pb-14"
         >
-          {latestPostData.map(({ id,img,name,user,date,durationToRead,topic,title,description }) => (
-            <SwiperSlide key={id}>
-               <div className="bg-[#F9F9F9] p-3 md:p-5 rounded-md">
-                  <img
-                    className="rounded-lg w-full"
-                    src={img}
-                    alt=""
-                  />
+          {latestPostData.map(
+            ({
+              id,
+              img,
+              name,
+              user,
+              date,
+              durationToRead,
+              topic,
+              title,
+              description,
+            }) => (
+              <SwiperSlide key={id}>
+                <div className="bg-[#F9F9F9] p-3 md:p-5 rounded-md">
+                  <img className="rounded-lg w-full" src={img} alt="" />
                   <div className="flex items-center gap-3 mt-3 mb-5">
-                   
-                   {user}
-    
+                    {user}
+
                     <div>
                       <h4 className="font-Inter font-bold text-sm mb-1">
                         {name}
                       </h4>
                       <p className="font-Inter font-medium text-xs md:text-sm text-black/40 flex items-center gap-2">
-                       {date}
+                        {date}
                         <span className="bg-secondary_color w-1 h-1 block rounded-full"></span>
                         {durationToRead}
                       </p>
@@ -69,14 +72,15 @@ const RelatedPost = () => {
                     {topic}
                   </h4>
                   <h5 className="font-openSans font-extrabold text-base  text-black_color mb-2">
-                   {title}
+                    {title}
                   </h5>
                   <p className="font-SpaceGrotesk text-sm text-black/60">
-                     {description}
+                    {description}
                   </p>
                 </div>
-            </SwiperSlide>
-          ))}
+              </SwiperSlide>
+            )
+          )}
         </Swiper>
       </div>
     </div>

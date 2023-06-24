@@ -6,7 +6,6 @@ const ComingSoon = () => {
   return (
     <div className="banner__background h-screen bg-cover bg-center bg-no-repeat w-full">
       <div className="flex flex-col justify-center items-center h-screen">
-        {/* <!-- <img className="w-[283px] md:w-[620px] h-[162px] md:h-[354px]" src="../assets/images/banner/services.webp" alt=""> --> */}
         <img
           className="w-[283px] md:w-[620px] h-[162px] md:h-[354px]"
           src={comming}
@@ -23,7 +22,7 @@ const ComingSoon = () => {
             Back to home
           </span>
           <span className="bg-white px-[3px] md:px-[4px] py-[4px] rounded-full flex">
-          <CaretRight size={16} />
+            <CaretRight size={16} />
           </span>
         </Link>
       </div>
