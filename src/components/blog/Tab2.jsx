@@ -45,7 +45,7 @@ const Tab2 = () => {
           }`}
           key={index}
         >
-          {item.header}
+          {item.header} 
         </button>
       ))}
       <div>
