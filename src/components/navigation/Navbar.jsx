@@ -127,7 +127,7 @@ const Navbar = () => {
               </Link>
             </div>
             {/* <!-- mobile screen overlay --> */}
-            <div className="mobile-overlay transition-all ease-linear duration-500 h-screen w-full bg-black/30 fixed inset-0 opacity-0 invisible z-40 md:hidden"></div>
+            {/* <div className="mobile-overlay transition-all ease-linear duration-500 h-screen w-full bg-black/30 fixed inset-0 opacity-0 invisible z-40 md:hidden"></div> */}
 
             <div>
               <button
@@ -167,7 +167,10 @@ const Navbar = () => {
 
               {/* <!-- Mobile menu  --> */}
               {isMenuOpen && (
-                <div className="mobile-menu transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none">
+                // <div className="mobile-menu transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none">
+                <div
+                  className={`transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none mobile-menu ${isMenuOpen && "show"}`}
+                >
                   <button
                     onClick={() => setMenuOpen(false)}
                     className="close-menu bg-[#283A3D] p-1 rounded flex items-center justify-center absolute right-3 mt-[14px] mr-2"

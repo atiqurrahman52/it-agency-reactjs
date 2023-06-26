@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="banner__background h-screen bg-cover bg-center bg-no-repeat w-full">
       <div className="flex flex-col justify-center items-center h-screen">
         <img
-          className="w-[283px] md:w-[620px] h-[162px] md:h-[354px]"
+          className="w-[283px] lsm:w-[350px] md:w-[520px] lg:w-[620px] h-[162px] lsm:h-[250px] md:h-[284px] lg:h-[350px]"
           src={services}
           alt=""
         />
