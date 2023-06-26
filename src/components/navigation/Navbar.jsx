@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/logo/logo-1.webp";
 import { navbarData } from "../../data/navigation/navbarData";
 
@@ -47,14 +47,14 @@ const Navbar = () => {
                     }`}
                   >
                     {navbarData.map(({ id, title, path }, index) => (
-                      <Link
+                      <NavLink
                         key={id}
-                        className="element navlink font-Inter font-medium text-base text-white px-2"
+                        className="element navlink font-Inter font-medium text-base text-white px-3"
                         style={{ transitionDelay: `${(index + 1) * 1000}ms` }}
                         to={path}
                       >
                         {title}
-                      </Link>
+                      </NavLink>
                     ))}
                   </div>
                 )}
@@ -169,7 +169,9 @@ const Navbar = () => {
               {isMenuOpen && (
                 // <div className="mobile-menu transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none">
                 <div
-                  className={`transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none mobile-menu ${isMenuOpen && "show"}`}
+                  className={`transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none mobile-menu ${
+                    isMenuOpen && "show"
+                  }`}
                 >
                   <button
                     onClick={() => setMenuOpen(false)}
@@ -202,12 +204,12 @@ const Navbar = () => {
                   <ul className="flex flex-col items-center pt-[150px] gap-6">
                     {navbarData.map(({ id, title, path }) => (
                       <li key={id} className="relative">
-                        <Link
+                        <NavLink
                           to={path}
-                          className="font-Inter font-medium text-base text-light_gray p-[10px]"
+                          className="font-Inter navlink font-medium text-base text-light_gray p-[10px]"
                         >
                           {title}
-                        </Link>
+                        </NavLink>
                       </li>
                     ))}
                   </ul>

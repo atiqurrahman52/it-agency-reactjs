@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import comming from "../assets/images/coming-soon/coming-soon.webp";
+
 import { CaretRight } from "@phosphor-icons/react";
 
 const ComingSoon = () => {
