@@ -59,7 +59,7 @@
 
 .navlink.active {
   /* @apply border border-[#5A5B5C] rounded-lg w-[69px] h-11 ; */
-  @apply border border-[#5A5B5C] rounded-lg py-2;
+  @apply border border-[#6A6A6A] rounded-lg py-2;
 }
 
 .backdrop {

@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header className="h-20 w-full fixed top-0 z-40  backdrop hidden shadow-xl md:block">
+      <header className="h-20 w-full fixed top-0 z-40  bg-[#002B33]  hidden shadow-xl md:block">
         <div className="container h-full">
           <div className="h-full w-full flex items-center justify-between">
             <div>
@@ -55,7 +55,7 @@ const Navbar = () => {
                       >
                         {title}
                       </NavLink>
-                    ))}
+                    ))} 
                   </div>
                 )}
               </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
       </header>
 
       {/* For Mobile start  */}
-      <header className="py-2 md:py-4 w-full fixed left-0 top-0 z-40  backdrop md:hidden">
+      <header className="py-2 md:py-4 w-full fixed left-0 top-0 z-40 bg-[#002B33]  md:hidden">
         <div className="container">
           <div className="flex items-center justify-between">
             <div>
@@ -169,7 +169,7 @@ const Navbar = () => {
               {isMenuOpen && (
                 // <div className="mobile-menu transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none">
                 <div
-                  className={`transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-y-auto md:overscroll-none shadow lg:shadow-none mobile-menu ${
+                  className={`transition-all ease-linear duration-500 h-screen lg:h-auto w-[241px] lg:w-auto bg-csk lg:bg-transparent fixed z-50 lg:static top-0 p-4 lg:p-0 overflow-hidden  md:overscroll-none shadow lg:shadow-none mobile-menu ${
                     isMenuOpen && "show"
                   }`}
                 >
