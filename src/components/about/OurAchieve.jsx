@@ -7,7 +7,7 @@ const OurAchieve = () => {
         <div className="grid grid-cols-12 md:grid-cols-12 gap-4">
           <div className="col-span-12 md:col-span-6">
             <h4 className="font-NotoSerif font-black text-2xl md:text-3xl  text-csk mb-6">
-              We've achieved many{" "}
+              We&apos;ve achieved many{" "}
               <span className="text-secondary_color">world</span> wide awards...
             </h4>
             <p className="font-Inter text-base text-black/60 text-justify ">
