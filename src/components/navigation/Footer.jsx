@@ -183,42 +183,7 @@ const Footer = () => {
                   </Link>
                 ))}
 
-                {/* <a
-                  href="./pages/service.html"
-                  className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  Service
-                </a>
-                <a
-                  href="./pages/contact-us.html"
-                  className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  Contact Us
-                </a>
-                <a
-                  href="./pages/about.html"
-                  className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-500"
-                >
-                  About Us
-                </a>
-                <a
-                  href="./pages/blog.html"
-                  className="font-Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  Blog
-                </a>
-                <a
-                  href="./pages/coming-soon.html"
-                  className="font -Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  Coming Soon
-                </a>
-                <a
-                  href="./pages/not-found.html"
-                  className="font -Inter block font-medium text-xs md:text-sm text-white hover:text-secondary_color transition-all duration-300"
-                >
-                  404 page
-                </a> */}
+               
               </div>
             </div>
           </div>

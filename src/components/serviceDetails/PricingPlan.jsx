@@ -1,3 +1,4 @@
+import { CaretRight } from "@phosphor-icons/react";
 
 
 
@@ -47,6 +48,7 @@ const PricingPlan = () => {
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <span> <i className="ph ph-check text-yellow text-2xl"></i></span>
+                                    <span> <CaretRight size={16} /></span>
                                     <span className="font-Inter font-medium text-sm md:text-base text-black/60">Feature text
                                         goes
                                         here</span>
@@ -55,7 +57,8 @@ const PricingPlan = () => {
                             <a href="#" className="flex justify-cente items-center gap-4">
                                 <p className="font-Inter font-bold text-sm md:text-base text-yellow">See Details Price plan
                                 </p>
-                                <i className="ph ph-caret-right text-xl text-yellow"></i>
+                             
+                                <span> <CaretRight size={20} className="text-yellow" /></span>
                             </a>
                         </div>
 
@@ -105,7 +108,8 @@ const PricingPlan = () => {
                             <a href="#" className="flex justify-cente items-center gap-4">
                                 <p className="font-Inter font-bold text-sm md:text-base text-primary">See Details Price plan
                                 </p>
-                                <i className="ph ph-caret-right text-xl text-primary"></i>
+                               
+                                <span> <CaretRight size={20} className="text-primary" /></span>
                             </a>
                         </div>
                         <div className="border p-4 md:p-8 rounded h-fit ">
@@ -160,7 +164,8 @@ const PricingPlan = () => {
                             <a href="#" className="flex justify-cente items-center gap-4">
                                 <p className="font-Inter font-bold text-sm md:text-base text-[#113355]">See Details Price
                                     plan</p>
-                                <i className="ph ph-caret-right text-xl text-[#113355]"></i>
+                                
+                                <span> <CaretRight size={20} className="text-[#113355]" /></span>
                             </a>
                         </div>
 
